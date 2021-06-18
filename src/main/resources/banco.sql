@@ -1,0 +1,1 @@
+INSERT INTO Carro(marca, modelo, ano) VALUES ('klivio', 'gol', '1996');
