@@ -1,15 +1,19 @@
 package br.com.example.testezup_final.modelo;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 
 @Entity
+@Table (name = "Infocarro")
 public class Infocarro {
 	
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id 
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String valor;
 	private String marca;
 	private String modelo;
